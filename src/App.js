@@ -11,7 +11,7 @@ function App() {
           ORCA LABS LLC
         </div>
         <div style={{fontSize: 14}}>
-          Code <AppsIcon/> Apps | Consulting
+          Code <AppsIcon sx={{fontSize: 12}} /> Apps <AppsIcon sx={{fontSize: 12}} /> Consulting
           </div>
 
           <p style={{fontSize: 14}}>
