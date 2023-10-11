@@ -15,7 +15,7 @@ function App() {
           </div>
 
           <p style={{fontSize: 14}}>
-          <a href="mailto:orca.labs.info@gmail.com" style={{color:'white'}}>Contact</a>
+          <a href="mailto:info@orca-labs.com" style={{color:'white'}}>Contact</a>
           </p>
        
       </header>
