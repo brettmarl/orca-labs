@@ -1,22 +1,23 @@
-import logo from './logo.svg';
+import logo from './OrcaLogo.svg';
 import './App.css';
+import AppsIcon from '@mui/icons-material/Apps';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={logo} className="App-logo white-filter" alt="logo" />
+        <div>
+          ORCA LABS LLC
+        </div>
+        <div style={{fontSize: 14}}>
+          Code <AppsIcon/> Apps | Consulting
+          </div>
+
+          <p style={{fontSize: 14}}>
+          <a href="mailto:orca.labs.info@gmail.com" style={{color:'white'}}>Contact</a>
+          </p>
+       
       </header>
     </div>
   );
