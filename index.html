@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orca Labs LLC</title>
+  <meta name="description" content="Orca Labs LLC — software development, apps and technical consulting.">
+  <meta name="theme-color" content="#0f1720">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://orca-labs.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Orca Labs LLC">
+  <meta property="og:description" content="Software development, apps and technical consulting.">
+  <meta property="og:url" content="https://orca-labs.com/">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Orca Labs LLC","url":"https://orca-labs.com/","email":"info@orca-labs.com","logo":"https://orca-labs.com/OrcaLogo.svg"}
+  </script>
+  <style>
+    :root {
+      --bg: #0f1720;
+      --bg-2: #16212d;
+      --fg: #f2f5f8;
+      --muted: #93a3b5;
+      --accent: #7cc4e8;
+      --line: rgba(255,255,255,.12);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: radial-gradient(ellipse at 50% 35%, var(--bg-2), var(--bg) 70%);
+      color: var(--fg);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 48px 16px;
+    }
+    .logo {
+      width: min(220px, 50vw);
+      height: auto;
+      transform: rotate(-45deg);
+      filter: invert(1);
+      margin-bottom: 24px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      font-weight: 600;
+      letter-spacing: .14em;
+    }
+    .tagline {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: .95rem;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+    }
+    .tagline span { color: var(--accent); padding: 0 .5em; }
+    .about {
+      max-width: 34rem;
+      margin: 28px 0 0;
+      color: var(--muted);
+    }
+    .contact {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 10px 22px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--fg);
+      text-decoration: none;
+      transition: border-color .15s, color .15s;
+    }
+    .contact:hover, .contact:focus-visible { border-color: var(--accent); color: var(--accent); }
+    footer {
+      padding: 20px 16px;
+      text-align: center;
+      font-size: .8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="OrcaLogo.svg" alt="Orca Labs logo" width="220" height="221">
+    <h1>ORCA LABS</h1>
+    <p class="tagline">Code<span>·</span>Apps<span>·</span>Consulting</p>
+    <p class="about">Orca Labs LLC builds software and apps, and provides technical consulting.</p>
+    <a class="contact" href="mailto:info@orca-labs.com">info@orca-labs.com</a>
+  </main>
+  <footer>&copy; <span id="y">2026</span> Orca Labs LLC. All rights reserved.</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
